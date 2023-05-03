@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/sahil-Shcode/static/css/main.c8e9b2a9.css",
+    "main.js": "/sahil-Shcode/static/js/main.6cae8724.js",
+    "static/js/787.26fdae00.chunk.js": "/sahil-Shcode/static/js/787.26fdae00.chunk.js",
+    "static/media/Card1.jpg": "/sahil-Shcode/static/media/Card1.fac18784207a36f0bd76.jpg",
+    "static/media/fotopoul.jpg": "/sahil-Shcode/static/media/fotopoul.a1cf45330e8ab54e6d56.jpg",
+    "static/media/Website-3.jpg": "/sahil-Shcode/static/media/Website-3.0b07181e41c3564da90a.jpg",
+    "static/media/Portfolio-2.jpg": "/sahil-Shcode/static/media/Portfolio-2.1be8807cead8cb00b580.jpg",
+    "static/media/CodePic-1.jpg": "/sahil-Shcode/static/media/CodePic-1.74b8746c7b1a35d1c6c7.jpg",
+    "static/media/Coding-2.jpg": "/sahil-Shcode/static/media/Coding-2.783a7602b743186b329b.jpg",
+    "static/media/Sahil-sitaishi1.jpg": "/sahil-Shcode/static/media/Sahil-sitaishi1.a28b01e6906d8349a0d5.jpg",
+    "static/media/CodePic1-2.jpg": "/sahil-Shcode/static/media/CodePic1-2.75c7b369858443134ec1.jpg",
+    "static/media/CodeA-3.jpg": "/sahil-Shcode/static/media/CodeA-3.cff8bcab6b7a88d899a6.jpg",
+    "index.html": "/sahil-Shcode/index.html",
+    "main.c8e9b2a9.css.map": "/sahil-Shcode/static/css/main.c8e9b2a9.css.map",
+    "main.6cae8724.js.map": "/sahil-Shcode/static/js/main.6cae8724.js.map",
+    "787.26fdae00.chunk.js.map": "/sahil-Shcode/static/js/787.26fdae00.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c8e9b2a9.css",
+    "static/js/main.6cae8724.js"
+  ]
+}

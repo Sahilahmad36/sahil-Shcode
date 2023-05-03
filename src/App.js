@@ -20,14 +20,14 @@ function App() {
         <ParticlesBackground />
         <Navbar />
         <Switch>
-          <Route exact path="/">
+          
         <Title name="Sahil" leadText="Full Stack Developer" />
         <ProjectSection />
         <h1 className=" container text-success text-center my-5" style={{fontSize:"4rem"}}>Skills-Bar</h1>
         <SkillBar />
         <About />
         <CardPage />
-        
+        <Route exact path="/">
         </Route>
         <Route exact path="/contact" component={Contact}/>
         <Route exact path="/picture" component={Gallery}/>

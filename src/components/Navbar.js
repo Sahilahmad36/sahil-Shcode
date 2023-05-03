@@ -4,7 +4,7 @@ function Navbar(){
     return (
         <nav className=" navbar navbar-expand-md fixed-top bg-white">
         
-            <a href="/" className="btn btn-outline-info">Home</a>
+            <Link to="/" className="btn btn-outline-info">Home</Link>
             <Link to="/contact" className="ml-auto mx-3">
              <button className="btn btn-outline-info">Contact me</button>
              </Link>

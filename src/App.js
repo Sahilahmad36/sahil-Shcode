@@ -22,7 +22,7 @@ function App() {
         <Switch>
         <Route exact path="/">
        
-        <CardPage />
+      
         
         </Route>
         <Route exact path="/contact" component={Contact}/>
@@ -35,6 +35,7 @@ function App() {
         <h1 className=" container text-success text-center my-5" style={{fontSize:"4rem"}}>Skills-Bar</h1>
         <SkillBar />
         <About />
+        <CardPage />
         <Footer />
         
         </BrowserRouter>

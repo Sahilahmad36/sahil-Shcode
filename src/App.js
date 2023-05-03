@@ -20,20 +20,21 @@ function App() {
         <ParticlesBackground />
         <Navbar />
         <Switch>
-          
-        <Title name="Sahil" leadText="Full Stack Developer" />
-        <ProjectSection />
-        <h1 className=" container text-success text-center my-5" style={{fontSize:"4rem"}}>Skills-Bar</h1>
-        <SkillBar />
-        <About />
-        <CardPage />
         <Route exact path="/">
+       
+        <CardPage />
+        
         </Route>
         <Route exact path="/contact" component={Contact}/>
         <Route exact path="/picture" component={Gallery}/>
         <Route exact path="/content" component={Content} />
         <Route exact path="/blog" component={Blog} />
         </Switch>
+        <Title name="Sahil" leadText="Full Stack Developer" />
+        <ProjectSection />
+        <h1 className=" container text-success text-center my-5" style={{fontSize:"4rem"}}>Skills-Bar</h1>
+        <SkillBar />
+        <About />
         <Footer />
         
         </BrowserRouter>

@@ -1,0 +1,12 @@
+.container1{
+    width: 100vh;
+    height: auto;
+    padding: 1rem;
+    border-radius: 15px;
+    flex-direction: column;
+    background: rgb(29, 29, 29);
+    justify-content: center;
+    margin:auto;
+    display: flex;
+    position: relative;
+}

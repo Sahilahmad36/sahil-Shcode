@@ -1,38 +1,40 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*,
+::before,
+::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    background: rgb(29, 29, 29);
+} 
+.scrollbar::-webkit-scrollbar{
+  display: none;
+}
+footer{
+  width: 100%;
+  margin-top: 100px;
+  height: 8vh;
+  background: #141414;
+  display: grid;
+  place-items: center;
+  color: #adabab;
+  font-size: 12px;
+}
+.footer-content span{
+  color: #CC6C06;
+}
+.contact{
+  color: #827e7e9a;
+  font-family: fantasy;
+  font-size: 6rem;
+  right: auto;
   text-align: center;
+  opacity: 0.4;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

@@ -1,24 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import ParticlesBackground from "./components/ParticlesBackground";
+import Navbar from "./components/Navbar";
+import Title from "./components/Title";
+import ProjectSection from "./components/ProjectSection";
+import SkillBar from "./components/SkillBar";
+import About from "./components/About";
+import CardPage from "./components/CardPage";
+import Blog from "./components/Blog";
+import Footer from "./components/Footer";
+import Contact from "./components/Contact";
+import {BrowserRouter, Route, Switch} from "react-router-dom";
+import Gallery from "./components/Gallery";
+import Content from "./components/Content";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <BrowserRouter>
+        <ParticlesBackground />
+        <Navbar />
+        <Switch>
+          <Route exact path="/">
+        <Title name="Sahil" leadText="Full Stack Developer" />
+        <ProjectSection />
+        <h1 className=" container text-success text-center my-5" style={{fontSize:"4rem"}}>Skills-Bar</h1>
+        <SkillBar />
+        <About />
+        <CardPage />
+        
+        </Route>
+        <Route exact path="/contact" component={Contact}/>
+        <Route exact path="/picture" component={Gallery}/>
+        <Route exact path="/content" component={Content} />
+        <Route exact path="/blog" component={Blog} />
+        </Switch>
+        <Footer />
+        
+        </BrowserRouter>
   );
 }
 

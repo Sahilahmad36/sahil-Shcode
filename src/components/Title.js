@@ -1,7 +1,7 @@
 import React from "react";
 import Sahil from "../asset/Sahil-sitaishi1.jpg";
-function Title(props){
-    const{name,leadText}=props;
+function Title(){
+   
     return(
         <div className="container">
             
@@ -13,15 +13,15 @@ function Title(props){
                   alt="Sahil-sitaishi"
                   />
                 
-            </div> 
+            </div>
             <div className="col-12 col-md-6 py-5 my-3">
 
             
-            <div className="font-weight-light" style={{ fontSize : "60px" }}>
-                
-                Hi I'm <span className="text-info" style={{fontSize:"3.5rem"}}>{name}</span>
+            <div className="font-weight-light text-info" style={{ fontSize : "60px" }}>
+                {/* Hi I'm <span className="text-info">Sahil </span> */}
+                Hi I'm Sahil
             </div>
-            <h4 className="font-weight-light">{leadText}</h4>
+            <h4 className="font-weight-light">Full Stack Developer</h4>
             
         </div>
         </div>

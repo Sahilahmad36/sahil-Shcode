@@ -45,7 +45,7 @@
 }
 .section-blog{
     width: 90%;
-    margin: 100px auto 0;
+    margin: 80px auto 0;
 
 }
 /* .section-blog .real-big-2{
@@ -56,7 +56,7 @@
   
 .blog-articles{
     width: 90%;
-   margin: 55px;
+   margin: 35px;
     flex-flow: row wrap;
 }
 .post-articles{

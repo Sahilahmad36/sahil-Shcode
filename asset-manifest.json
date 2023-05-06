@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sahil-Shcode/static/css/main.c8e9b2a9.css",
-    "main.js": "/sahil-Shcode/static/js/main.3983f7dd.js",
+    "main.css": "/sahil-Shcode/static/css/main.f56a91ca.css",
+    "main.js": "/sahil-Shcode/static/js/main.631a6139.js",
     "static/js/787.26fdae00.chunk.js": "/sahil-Shcode/static/js/787.26fdae00.chunk.js",
     "static/media/Card1.jpg": "/sahil-Shcode/static/media/Card1.fac18784207a36f0bd76.jpg",
     "static/media/fotopoul.jpg": "/sahil-Shcode/static/media/fotopoul.a1cf45330e8ab54e6d56.jpg",
@@ -13,12 +13,12 @@
     "static/media/CodePic1-2.jpg": "/sahil-Shcode/static/media/CodePic1-2.75c7b369858443134ec1.jpg",
     "static/media/CodeA-3.jpg": "/sahil-Shcode/static/media/CodeA-3.cff8bcab6b7a88d899a6.jpg",
     "index.html": "/sahil-Shcode/index.html",
-    "main.c8e9b2a9.css.map": "/sahil-Shcode/static/css/main.c8e9b2a9.css.map",
-    "main.3983f7dd.js.map": "/sahil-Shcode/static/js/main.3983f7dd.js.map",
+    "main.f56a91ca.css.map": "/sahil-Shcode/static/css/main.f56a91ca.css.map",
+    "main.631a6139.js.map": "/sahil-Shcode/static/js/main.631a6139.js.map",
     "787.26fdae00.chunk.js.map": "/sahil-Shcode/static/js/787.26fdae00.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c8e9b2a9.css",
-    "static/js/main.3983f7dd.js"
+    "static/css/main.f56a91ca.css",
+    "static/js/main.631a6139.js"
   ]
 }

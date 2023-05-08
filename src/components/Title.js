@@ -16,8 +16,6 @@ function Title(){
                 
             </div>
             <div className="col-12 col-md-6 py-5 my-3">
-           
-           <div className="font">h6</div>
             
              <div className="font-weight-light text-info" style={{ fontSize : "60px" }}>
                 
@@ -26,7 +24,7 @@ function Title(){
             <h4 className="font-weight-light">Full Stack Developer</h4>
             
         </div>
-        </div>
+        </div>  
      </div>
     );
 }

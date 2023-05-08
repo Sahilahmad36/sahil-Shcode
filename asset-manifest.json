@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/sahil-Shcode/static/css/main.3678f407.css",
+    "main.css": "/sahil-Shcode/static/css/main.09e38984.css",
     "main.js": "/sahil-Shcode/static/js/main.a755b08f.js",
     "static/js/787.26fdae00.chunk.js": "/sahil-Shcode/static/js/787.26fdae00.chunk.js",
     "static/media/Card1.jpg": "/sahil-Shcode/static/media/Card1.fac18784207a36f0bd76.jpg",
@@ -13,12 +13,12 @@
     "static/media/CodePic1-2.jpg": "/sahil-Shcode/static/media/CodePic1-2.75c7b369858443134ec1.jpg",
     "static/media/CodeA-3.jpg": "/sahil-Shcode/static/media/CodeA-3.cff8bcab6b7a88d899a6.jpg",
     "index.html": "/sahil-Shcode/index.html",
-    "main.3678f407.css.map": "/sahil-Shcode/static/css/main.3678f407.css.map",
+    "main.09e38984.css.map": "/sahil-Shcode/static/css/main.09e38984.css.map",
     "main.a755b08f.js.map": "/sahil-Shcode/static/js/main.a755b08f.js.map",
     "787.26fdae00.chunk.js.map": "/sahil-Shcode/static/js/787.26fdae00.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3678f407.css",
+    "static/css/main.09e38984.css",
     "static/js/main.a755b08f.js"
   ]
 }

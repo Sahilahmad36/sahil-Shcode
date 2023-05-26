@@ -2,13 +2,15 @@ import React from "react";
 import "./Blog.css";
 function Blog() {
   return (
-    
+
+       
 <section data-load="blog" id="section-blog" className=" section-full section-blog js-way">
 
 
 <div className="blog-articles">
 
 <article className="post-articles" style={{borderTop: "2px solid #08fdd8"}}>
+
         <div className="post-content">
             <time className="post-date" style={{color: "#08fdd8"}}> HTML &amp; CSS</time>
             <div className="blog-post-title">
@@ -26,6 +28,7 @@ function Blog() {
                 />
             </div> 
         </div>
+        
     </article>
     
     <article className="post-articles" style={{borderTop: "2px solid orange"}}>
@@ -199,7 +202,6 @@ function Blog() {
     </div>
     
 </section>
-
   );
 }
 

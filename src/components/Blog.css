@@ -1,6 +1,6 @@
 #section-blog{
     width: 85%;
-    margin: 90px auto 0;
+    margin: 100px auto 0;
     position: relative;
 }
 .blog-articles{
@@ -38,14 +38,14 @@
     text-decoration: none;
     color: #fff;
     display: block;
-    margin: 15px 0;
+    margin: 20px 0;
 }
 .blog-post-title h5 a:hover{
     color: #06b99e;
 }
 .section-blog{
     width: 90%;
-    margin: 70px auto 0;
+    margin: 80px auto 0;
 
 }
 /* .section-blog .real-big-2{

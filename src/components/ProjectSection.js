@@ -79,7 +79,7 @@ import {Link} from "react-router-dom";
                 />
             
               <div className="card-body">
-              <a href="/">
+              <a href="https://sahilahmad36.github.io/Snapshot/">
            <h4 className="card-title text-primary btn btn-outline-secondary">Project 1</h4>  
            </a>
            <p className="text-primary" >This is my first project</p>              

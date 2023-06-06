@@ -18,14 +18,14 @@ const Child=({icon,skill,percentage})=> {
 
   return (
    <div className="child"> 
-<div className="content">
+<div className="content-1">
     <div className="left ">
         {icon}
         </div>
         <div className="right">
             <h3>{skill}</h3>
             <div className="skill-bar">
-                <div className="progress" style={style}>
+                <div className="progress-1" style={style}>
                     <span>{percentage}</span>
                 </div> 
             </div>

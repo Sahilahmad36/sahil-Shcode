@@ -89,8 +89,14 @@ function CardPage() {
                 </div>
                 </div> 
                 </div>
-
-        </div>  
+                
+       
+        </div>
+        <div className="text-right">
+                
+         <i className="fas fa-arrow-right"></i>
+        </div> 
+    
         </div>
     
 

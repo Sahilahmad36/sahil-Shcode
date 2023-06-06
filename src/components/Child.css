@@ -1,4 +1,4 @@
-.content{
+.content-1{
         display: flex;
         align-items:center;
         justify-content:center;
@@ -35,7 +35,7 @@
             border:1px solid #252222;
             padding: 0.2rem;
         }
-        .progress{
+        .progress-1{
             display: flex;
             align-items: center;
             justify-content: flex-end;

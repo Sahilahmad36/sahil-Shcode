@@ -1,3 +1,23 @@
-.font{
-    font-family:'Courier New', Courier, monospace;
+.ach{
+    margin-right: 262px;
+    font-size: 60px;
+    font-weight: bold;
+    color: #CC6C06;
+}
+.ach1{
+    font-size: 60px;
+    font-family:"Palatino Linotype";
+    color: rgb(92, 216, 241);
+    font-weight: bold;
+}
+.logo-img{
+    margin-bottom:20px;
+     width:70px;
+    height: 74px;
+}
+.ach2{
+   
+    margin-left: 35px;
+    font-size:30px;
+    font-weight: bold;
 }

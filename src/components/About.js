@@ -5,7 +5,7 @@ import "./About.css";
     const toggleState= (index) =>{
       setToggleTab(index)
     }
-
+ 
     return(
         <Fragment>
         <section className="about">
@@ -121,7 +121,7 @@ onClick={() => toggleState(1)}
 
    <span>2014-2022</span>
    <p>Full -stack developer with expertise in java using Spring Boot,RESTful API, 
-    Mockito unit testing, SQL, Apache Kafla, and Cassandra CQL. </p>
+    Mockito unit testing, SQL, Apache Kafla,<br /> and Cassandra CQL. </p>
            </div>
        
            <div className="exp-column">
@@ -129,7 +129,7 @@ onClick={() => toggleState(1)}
 
    <span>2014-2022</span>
    <p>Full -stack developer with expertise in java using Spring Boot,RESTful API, 
-    Mockito unit testing, SQL, Apache Kafla, and Cassandra CQL. </p>
+    Mockito unit testing, SQL, Apache Kafla,<br /> and Cassandra CQL. </p>
            </div>
 
 

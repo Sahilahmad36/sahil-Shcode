@@ -1,8 +1,9 @@
 
 
 .about {
-    padding: 5rem 3 rem 3 rem 3 rem;
+    padding: 5rem 1rem 1rem 1rem;
     background: #000000;
+   
 }
 .row {
     display: flex;
@@ -18,15 +19,17 @@
     background: black;
     margin-right: 100px;
     cursor: pointer;
+    
 }
 .single-tabs h2{
-
-    display: block;
-    padding: 10px 16px;
+    
+    display: flex;
+    padding: 0px 0px;
     border-radius: 4px;
     color: #eb0808;
     font-size: 15px;
     font-weight: 600;
+    
 }
 .about-img{
     position: relative;
@@ -34,14 +37,15 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    height: 600px;
-    width: 450px;
+    height: 350px;
+    width: 350px;
 }
 .content{
     padding-top: 1.5rem;
     padding-bottom: 1rem;
     display: none;
     color: #eb0808;
+   
 }
 .active-content{
     display: block;

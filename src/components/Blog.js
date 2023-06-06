@@ -1,7 +1,7 @@
 import React from "react";
 import "./Blog.css";
 function Blog() {
-  return (
+  return ( 
 
        
 <section data-load="blog" id="section-blog" className=" section-full section-blog js-way">

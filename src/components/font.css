@@ -1,14 +1,16 @@
 .ach{
-    margin-right: 262px;
+     /* margin-right: 262px; */
     font-size: 60px;
     font-weight: bold;
     color: #CC6C06;
+    /* display: flex; */
 }
 .ach1{
     font-size: 60px;
     font-family:"Palatino Linotype";
     color: rgb(92, 216, 241);
     font-weight: bold;
+    /* display: flex; */
 }
 .logo-img{
     margin-bottom:20px;
@@ -17,7 +19,8 @@
 }
 .ach2{
    
-    margin-left: 35px;
+    /* margin-left: 35px; */
     font-size:30px;
     font-weight: bold;
+    /* display: flex; */
 }

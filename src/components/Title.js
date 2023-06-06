@@ -1,7 +1,7 @@
 import React from "react";
 import Sahil from "../asset/Sahil-sitaishi1.jpg";
-import logo from "../asset/logo.png";
-import "./font.css";
+// import logo from "../asset/logo.png";
+// import "./font.css";
 function Title(){
     
     return(
@@ -16,14 +16,14 @@ function Title(){
                  />
                 
            </div>
-           <div className="col-12 col-md-6 py-5  my-3">
+           <div className="col-12 col-md-6 py-5 my-3">
         
-           <h2 className="ach">H'i,</h2>
-            <div className="ach1">
-                 I'm  <img className="logo-img" src={logo} alt="free"/> Sahil,
+           
+            <div className="font-weight-light" style={{fontSize:"60px"}}>
+                H'i I'm <h1 className="text-info">Sahil</h1> 
            </div>
            
-           <h4 className="ach2">
+           <h4 className="font-weight-light">
             FULL STACK DEVELOPER</h4>
             
             
@@ -36,4 +36,3 @@ function Title(){
     );
 }
 export default Title;
-// font-weight-light text-info

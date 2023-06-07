@@ -19,7 +19,7 @@
 .title{
    animation-name: moveRight;
    animation-duration: 0.7s;
-   font-size: 80px;
+   font-size: 60px;
    position: relative;
    display: flex;
    margin: auto;
@@ -32,7 +32,7 @@
 .titleTwo{
     animation-name: moveLeft;
     animation-duration: 1s;
-    font-size: 70px;
+    font-size: 60px;
     position: relative;
     display: flex;
     margin: auto;
@@ -53,7 +53,7 @@
     font-size: 60px;
     color: #ffffff;
     /* margin-bottom: 10px; */
-    line-height: 10px;
+    line-height: 5px;
     text-transform: uppercase;
    
 }

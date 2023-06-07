@@ -2,11 +2,11 @@ import React from "react";
 import {Link} from "react-router-dom";
 function Navbar(){
     return (
-        <nav className=" navbar navbar-expand-md fixed-top bg-white">
+        <nav className=" navbar navbar-expand-md fixed-top bg-black">
         
-            <Link to="/" className="btn btn-outline-info">Home</Link>
+            <Link to="/" className="btn btn-outline-dark">Home</Link>
             <Link to="/contact" className="ml-auto mx-3">
-             <button className="btn btn-outline-info">Contact me</button>
+             <button className="btn btn-outline-dark">Contact me</button>
              </Link>
         
         <button

@@ -37,7 +37,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    height: 350px;
+    height: 400px;
     width: 350px;
 }
 .content{
@@ -112,6 +112,22 @@
     background: rgb(23, 21, 21);
     overflow: visible;
 }
+.progress-bar1{
+    width: 90%;
+    height: 8px;
+    background: #18dcff;
+    line-height: 1;
+    position: relative;
+    border-radius: 2px;
+}
+.progress-bar1 span{
+    position: absolute;
+    top: -17px;
+    right: 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: #18dcff;
+}
 .progress-bar{
     width: 80%;
     height: 8px;
@@ -122,9 +138,9 @@
 }
 .progress-bar span{
     position: absolute;
-    top: -30px;
+    top: -17px;
     right: 0;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     color: #18dcff;
 }

@@ -19,7 +19,12 @@
 .title{
    animation-name: moveRight;
    animation-duration: 0.7s;
-   font-size: 60px;
+   font-size: 80px;
+   position: relative;
+   display: flex;
+   margin: auto;
+   align-items: center;
+   
 }
 .title:hover{
     color: #fbff00;
@@ -27,7 +32,10 @@
 .titleTwo{
     animation-name: moveLeft;
     animation-duration: 1s;
-    font-size: 60px;
+    font-size: 70px;
+    position: relative;
+    display: flex;
+    margin: auto;
 }
 .titleTwo:hover{
      color: #fbff00;
@@ -39,12 +47,14 @@
     margin-bottom: 10px;
     font-size: 40px;
     display: flex;
+    margin: auto;
 }
 .text{
     font-size: 60px;
     color: #ffffff;
     /* margin-bottom: 10px; */
     line-height: 10px;
+    text-transform: uppercase;
    
 }
 .button{

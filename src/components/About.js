@@ -5,7 +5,7 @@ import "./About.css";
     const toggleState= (index) =>{
       setToggleTab(index)
     }
- 
+    
     return(
         <Fragment>
         <section className="about">
@@ -58,18 +58,17 @@ onClick={() => toggleState(1)}
 
         <div className={toggleTab === 2?"content active-content":"content"} >
             <h2>Skills</h2>
-            <p>
-            I've done them all together with amazing people from companies around the globe. 
-            It's only a drop in the ocean compared to the entire list.
-            I currently work remotely with a selected 
-             freelance client base being open for new opportunities.</p>
+            <p>Passionate Full Stack Developer developer  and two year experience in this field.
+               Extensive knowledge of Python and C++. Passes the ability to scale
+               to great extend both in Front-end and Back-end Development.
+            </p>
 
          <div className="skills-row">
             <div className="progress-wrap">
-                <h3>Developer</h3>
+                <h3>Front-end Developer</h3>
             <div className="progress">
-          <div className="progress-bar">
-         <span>80%</span>
+          <div className="progress-bar1">
+         <span>90%</span>
           </div>
             </div>
             </div>
@@ -77,7 +76,7 @@ onClick={() => toggleState(1)}
 
             <div className="skills-row">
             <div className="progress-wrap">
-                <h3>Developer</h3>
+                <h3>Back-end Developer</h3>
             <div className="progress">
           <div className="progress-bar">
          <span>80%</span>
@@ -89,7 +88,7 @@ onClick={() => toggleState(1)}
 
             <div className="skills-row">
             <div className="progress-wrap">
-                <h3>Developer</h3>
+                <h3>UI/UX Developer</h3>
             <div className="progress">
           <div className="progress-bar">
          <span>80%</span>
@@ -101,7 +100,7 @@ onClick={() => toggleState(1)}
 
             <div className="skills-row">
             <div className="progress-wrap">
-                <h3>Developer</h3>
+                <h3>Data Structure</h3>
             <div className="progress">
           <div className="progress-bar">
          <span>80%</span>
@@ -117,19 +116,28 @@ onClick={() => toggleState(1)}
 
     <div className={toggleTab === 3?"content active-content":"content"} >
            <div className="exp-column">
-   <h3>Web Developer</h3>
+   <h3>Front-end Development Intern at Edu-versity</h3>
 
-   <span>2014-2022</span>
-   <p>Full -stack developer with expertise in java using Spring Boot,RESTful API, 
-    Mockito unit testing, SQL, Apache Kafla,<br /> and Cassandra CQL. </p>
+   <span>20,Nov-22 - 21,Jan-23</span>
+   <p> 
+   -Assisted the development team in
+maintaining 6 websites.<br />
+-Implemented front-end technical solutions
+to meet project requirements for creation
+of 4 new web pages.
+   </p>
            </div>
        
            <div className="exp-column">
-   <h3>Web Developer</h3>
+   <h3>React Developer Intern at Pantech E-Learning</h3>
 
-   <span>2014-2022</span>
-   <p>Full -stack developer with expertise in java using Spring Boot,RESTful API, 
-    Mockito unit testing, SQL, Apache Kafla,<br /> and Cassandra CQL. </p>
+   <span>3,Feb-23 - 4,Apr-23</span>
+   <p>
+   -Identified web-based user interactions and developed highly-responsive user interface components via React concepts.<br />
+   -Translated designs & wireframes into high-quality code and wrote application interface code via JavaScript following Reactjs workflows.<br />
+   -Identified web-based user interactions and developed highly-responsive user
+   interface components via React concepts
+   </p>
            </div>
 
 

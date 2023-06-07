@@ -23,7 +23,7 @@ function Navbar(){
                  Blog
                     </Link>
                     <a href="/" className="nav-item nav-link text-primary h5 mx-1 my-auto">
-                    Project
+                   Work
                     </a>
                     
                     </div>

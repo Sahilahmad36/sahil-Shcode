@@ -65,7 +65,7 @@ import {Link} from "react-router-dom";
 
  function ProjectSection(){
     return(
-        <div className="container text-center my-5">
+        <div className="container text-center my-3">
        <h1 className="font-weight-light">
         <span className="text-info" style={{fontSize:"40px"}}>Projects</span>
        </h1>
@@ -79,10 +79,15 @@ import {Link} from "react-router-dom";
                 />
             
               <div className="card-body">
-              <a href="https://sahilahmad36.github.io/Snapshot/">
-           <h4 className="card-title text-primary btn btn-outline-secondary">Project 1</h4>  
+              <a href="https://github.com/Sahilahmad36/Snapshot/">
+           <h4 className="card-title text-primary btn btn-outline-secondary mx-3">Source-code</h4>  
            </a>
-           <p className="text-primary" >This is my first project</p>              
+
+           <a href="https://sahilahmad36.github.io/Snapshot/">
+           <h4 className="card-title text-primary btn btn-outline-secondary mx-3">Deploy-link</h4>  
+           </a>
+
+           <p className="text-success text-center" >This is my first project</p>              
             </div>
             </div>
         </div>
@@ -95,10 +100,15 @@ import {Link} from "react-router-dom";
                 />
               
               <div className="card-body">
-                <a href="/">
-           <h4 className="card-title text-primary btn btn-outline-secondary">Project 2</h4> 
+                <a href="https://github.com/Sahilahmad36/Social_mediaapp/">
+           <h4 className="card-title text-primary btn btn-outline-secondary mx-3">Source-code</h4> 
            </a> 
-           <p className="text-primary text-center">This is my second project</p>
+
+           <a href="https://fascinating-marigold-184d74.netlify.app/">
+           <h4 className="card-title text-primary btn btn-outline-secondary mx-3">Deploy-link</h4> 
+           </a> 
+
+           <p className="text-success text-center">This is my second project</p>
                        
             </div>
             </div>
@@ -112,10 +122,15 @@ import {Link} from "react-router-dom";
                 />
               
               <div className="card-body">
-                <a href="https://sahilahmad36.github.io/Calendar/CalendarProject.html">
-           <h4 className="card-title text-primary btn btn-outline-secondary">Project 3</h4> 
+                <a href="https://github.com/Sahilahmad36/Task-Management">
+           <h4 className="card-title text-primary btn btn-outline-secondary mx-3">Source-code</h4> 
            </a> 
-           <p className="text-primary text-center">This is my third project</p>   
+
+           <a href="https://sahilahmad36.github.io/Task-Management/">
+           <h4 className="card-title text-primary btn btn-outline-secondary mx-3">Deploy-link</h4> 
+           </a> 
+
+           <p className="text-success text-center">This is my third project</p>   
                       
             </div>
             </div>
@@ -130,12 +145,7 @@ import {Link} from "react-router-dom";
          <i className="fas fa-arrow-right"></i></h5>
          </Link>
         </div>
-        {/* <div className="my-5">
-            <a href="/" className="text-dark text-right">
-                <h5 className="text-danger">See my project
-          <i className="fas fa-arrow-right"></i></h5>
-         </a>
-       </div> */}
+       
         
         </div>
     );

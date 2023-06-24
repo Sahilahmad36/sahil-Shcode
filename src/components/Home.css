@@ -1,121 +1,121 @@
 .home{
-    background-color: black;
-    height: 90vh;
-    width: 100%;
-    display: flex;
+  background-color: black;
+  height: 90vh;
+  width: 100%;
+  display: flex;
 }
 
 .home-intro{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    margin-left: 100px;
-    font-size: 50px;
-    color: white;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 100px;
+  font-size: 50px;
+  color: white;
 }
- 
+
 .title{
-   animation-name: moveRight;
-   animation-duration: 0.7s;
-   font-size: 60px;
-   position: relative;
-   display: flex;
-   margin: auto;
-   align-items: center;
-   
+ animation-name: moveRight;
+ animation-duration: 0.7s;
+ font-size: 60px;
+ position: relative;
+ display: flex;
+ margin: auto;
+ align-items: center;
+ 
 }
 .title:hover{
-    color: #fbff00;
+  color: #fbff00;
 }
 .titleTwo{
-    animation-name: moveLeft;
-    animation-duration: 1s;
-    font-size: 60px;
-    position: relative;
-    display: flex;
-    margin: auto;
+  animation-name: moveLeft;
+  animation-duration: 1s;
+  font-size: 60px;
+  position: relative;
+  display: flex;
+  margin: auto;
 }
 .titleTwo:hover{
-     color: #fbff00;
+   color: #fbff00;
 }
 .titleThree{
-    animation-name: moveRight;
-    animation-duration: 1.3s;
-    color:#fbff00;
-    margin-bottom: 10px;
-    font-size: 40px;
-    display: flex;
-    margin: auto;
+  animation-name: moveRight;
+  animation-duration: 1.3s;
+  color:#fbff00;
+  margin-bottom: 10px;
+  font-size: 40px;
+  display: flex;
+  margin: auto;
 }
 .text{
-    font-size: 60px;
-    color: #ffffff;
-    /* margin-bottom: 10px; */
-    line-height: 5px;
-    text-transform: uppercase;
-   
+  font-size: 60px;
+  color: #ffffff;
+  /* margin-bottom: 10px; */
+  line-height: 5px;
+  text-transform: uppercase;
+ 
 }
 .button{
-    font-size: 16px;
-    border: 2px solid white;
-    border-radius: 5px;
-    outline: none;
-    background-color: #11cf90;
-    color: black;
-    padding: 12px 25px;
-    position: relative;
-    transform: translateZ(0);
-    animation-name: moveUp;
-    animation-duration: 1s;
-    cursor: pointer;
+  font-size: 16px;
+  border: 2px solid white;
+  border-radius: 5px;
+  outline: none;
+  background-color: #11cf90;
+  color: black;
+  padding: 12px 25px;
+  position: relative;
+  transform: translateZ(0);
+  animation-name: moveUp;
+  animation-duration: 1s;
+  cursor: pointer;
 }
 .button:before{
-    content: "";
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: #eeff00;
-    transform: scaleX(0);
-    transition: 300ms ease-out;
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #eeff00;
+  transform: scaleX(0);
+  transition: 300ms ease-out;
 }
 .button:hover:before{
-  transform: scaleX(1);
+transform: scaleX(1);
 
 }
 @keyframes moveRight{
-    0%{
-        opacity:0;
-        transform: translateX(100px);
+  0%{
+      opacity:0;
+      transform: translateX(100px);
 
-    }
-    100%{
-        opacity: 1;
-        transform: translate(0);
-    }
+  }
+  100%{
+      opacity: 1;
+      transform: translate(0);
+  }
 }
 @keyframes moveLeft{
-    0%{
-        opacity: 0;
-        transform: translateX(-150px);
-    }
-    100% {
-    opacity: 1;
-    transform: translate(0);
-    }
+  0%{
+      opacity: 0;
+      transform: translateX(-150px);
+  }
+  100% {
+  opacity: 1;
+  transform: translate(0);
+  }
 }
 @media screen and (max-width: 1100px){
-     .home-intro{
-        width: 100vh;
-        height: 80vh;
-        display: flex;
-        justify-content: center;
-        font-size: 50px;
-        margin: 0 auto;
-        padding-left: 80px;
-     }
+   .home-intro{
+      width: 100vh;
+      height: 80vh;
+      display: flex;
+      justify-content: center;
+      font-size: 50px;
+      margin: 0 auto;
+      padding-left: 80px;
+   }
 }

@@ -4,9 +4,9 @@ function Navbar(){
     return (
         <nav className=" navbar navbar-expand-md fixed-top bg-black">
         
-            <Link to="/" className="btn btn-outline-dark">Home</Link>
+            <Link to="/" className="btn btn-secondary">Home</Link>
             <Link to="/contact" className="ml-auto mx-3">
-             <button className="btn btn-outline-dark">Contact me</button>
+             <button className="btn btn-secondary">Contact me</button>
              </Link>
         
         <button

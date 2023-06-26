@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Typewriter from "typewriter-effect";
-
 import "./Home.css";
+import {Link} from "react-router-dom";
 
 const Home = () =>{
     const [state]=useState({
@@ -37,13 +37,12 @@ const Home = () =>{
            />
             </div>
             <div className="contact-me">
-            <button className="button">Contact Me!</button>
+                <Link to="/contact">
+                <button className="button">Contact Me!</button>
+                </Link>
+           
             </div>
             </div>
-            {/* <div className="home-image">
-                
-                <img className="ach rounded-circle img-center w-50" src={state.image} alt="free" />
-            </div> */}
         </div>
         </div>
     );

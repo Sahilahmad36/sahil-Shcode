@@ -100,7 +100,7 @@ import {Link} from "react-router-dom";
                 />
               
               <div className="card-body">
-                <a href="https://github.com/Sahilahmad36/Social_mediaapp/">
+                <a href="https://github.com/Sahilahmad36/Social_mediaapp">
            <h4 className="card-title text-primary btn btn-outline-secondary mx-3">Source-code</h4> 
            </a> 
 

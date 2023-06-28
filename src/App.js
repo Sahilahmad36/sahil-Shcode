@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-// import ParticlesBackground from "./components/ParticlesBackground";
+import ParticlesBackground from "./components/ParticlesBackground";
 import Navbar from "./components/Navbar";
 
 import Footer from "./components/Footer";
@@ -16,7 +16,7 @@ import Homepage from "./components/Homepage";
 function App() {
   return (
     <BrowserRouter>
-    {/* <ParticlesBackground /> */}
+    <ParticlesBackground />
     <Navbar />
     
     <Switch>

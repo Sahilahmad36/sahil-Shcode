@@ -170,7 +170,7 @@ const Contact = () => {
        </div>
        <button
        type="submit"
-       className="btn btn-outline-info float-right"
+       className="btn btn-outline-primary float-right"
        >
          Submit
         </button>

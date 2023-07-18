@@ -16,14 +16,61 @@ body{
 .scrollbar::-webkit-scrollbar{
   display: none;
 }
+.navbar{
+background-color: #fffaf0;
+padding: 5px;
+}
+/* .btn1 {
+color: #010101;
+text-decoration: none;
+border-radius: 1rem;
+padding: 5px;
+}
+.btn1:hover{
+  background:#efad67;
+} */
+
+
+.btn1{
+  font-size: 15px;
+  border: 2px;
+  background: #fffaf0;
+  border-radius: 5px;
+  outline: none;
+  color: #010101;
+  padding: 8px 20px;
+  position: relative;
+  transform: translateZ(0);
+  animation-name: moveUp;
+  animation-duration: 1s;
+  cursor: pointer;
+}
+.btn1:before{
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #eeff00;
+  transform: scaleX(0);
+  transition: 300ms ease-out;
+}
+.btn1:hover:before{
+transform: scaleX(1);
+
+}
+
+
 footer{
   width: 100%;
   margin-top: 100px;
   height: 8vh;
-  background: #141414;
+  background: #fffaf0;
   display: grid;
   place-items: center;
-  color: #adabab;
+  color: #010101;
   font-size: 12px;
 }
 .footer-content span{
@@ -38,4 +85,9 @@ footer{
   opacity: 0.4;
 }
 
-
+.logo{
+  width: 68px;
+  float: left;
+  margin-right: 10px;
+  border-radius: 50%;
+}

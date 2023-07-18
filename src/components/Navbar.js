@@ -2,11 +2,19 @@ import React from "react";
 import {Link} from "react-router-dom";
 function Navbar(){
     return (
-        <nav className=" navbar navbar-expand-md fixed-top bg-black">
-        
-            <Link to="/" className="btn btn-secondary">Home</Link>
-            <Link to="/contact" className="ml-auto mx-3">
-             <button className="btn btn-secondary">Contact me</button>
+        <nav className=" navbar navbar-expand-md fixed-top">
+            
+            <img
+    alt="logo"
+    className="logo"
+    src="https://cdn.dribbble.com/users/2142371/screenshots/6071364/media/70b33e43515ffae5365f4cf4d9700e59.png" 
+    />
+      
+            <Link to="/">
+                <button className="btn1">Home</button>
+                </Link>
+            <Link to="/contact" className=" ml-auto mx-3">
+           <button className="btn1">Contact me</button>
              </Link>
         
         <button
@@ -28,10 +36,8 @@ function Navbar(){
                     
                     </div>
         </div>
-           
-        
-    
     </nav>
     );
 }
 export default Navbar;
+

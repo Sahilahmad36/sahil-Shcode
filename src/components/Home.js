@@ -12,6 +12,7 @@ const Home = () =>{
     });
     return (
         <div className="container">
+           
 
         <div className="home">
             <div className="home-intro">

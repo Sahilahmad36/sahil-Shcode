@@ -1,8 +1,12 @@
 .home{
-  background-color: black;
+  border-collapse: collapse;
+  /* background-color: black; */
   height: 90vh;
   width: 100%;
   display: flex;
+  background-image: url('../asset/josh.jpg');
+  background-size: cover;
+  margin-top: 61px;
 }
 
 .home-intro{
@@ -50,13 +54,17 @@
   margin: auto;
 }
 .text{
-  font-size: 60px;
-  color: #ffffff;
-  /* margin-bottom: 10px; */
+  
   line-height: 5px;
   text-transform: uppercase;
  
 }
+.text span{
+  color: red;
+  font-size: 15px;
+  line-height: 7px;
+}
+
 .button{
   font-size: 16px;
   border: 2px solid white;

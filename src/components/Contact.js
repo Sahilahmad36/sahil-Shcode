@@ -99,11 +99,12 @@
 
 
 
-import React, {useRef } from "react";
+import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
 
 const Contact = () => {
+  
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -125,14 +126,9 @@ const Contact = () => {
           console.log(error.text);
         }
       );
+      e.target.reset()
       }
-      
-
-          
-      
-
-       
-        
+    
   return (
     <div className="container my-5">
      <h1 className=" font-weight-light text-center py-5">

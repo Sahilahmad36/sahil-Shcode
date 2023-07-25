@@ -129,7 +129,7 @@ of 4 new web pages.
            </div>
        
            <div className="exp-column">
-   <h3>React Developer Intern at Pantech E-Learning</h3>
+   <h3>Full Stack Web Development Intern at Pantech E-Learning</h3>
 
    <span>3,Feb-23 - 4,Apr-23</span>
    <p>

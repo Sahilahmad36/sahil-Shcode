@@ -12,7 +12,7 @@ const Home = () =>{
     });
     return (
         <div className="container">
-           
+      
 
         <div className="home">
             <div className="home-intro">
@@ -31,7 +31,7 @@ const Home = () =>{
                 "PASSIONATE FULL STACK DEVELOPER AND TWO YEAR EXPERIENCE IN THIS FIELD.",
                 "PASSES THE ABILITY TO SCALE TO GREATE EXTEND BOTH IN FRONT-END AND BACK-END DEVELOPMENT.",
                 "AND UI/UX DESIGNER.",
-                "In building JavaScript applications, I'm equipped with just the right tools, and can absolutely function independently of them to deliver fast, resilient solutions optimized for scale - performance and scalability are priorities on my radar.",
+               
             ],
            }}
            
@@ -45,6 +45,7 @@ const Home = () =>{
             </div>
             </div>
         </div>
+        
         </div>
     );
 }

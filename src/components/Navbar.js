@@ -30,9 +30,9 @@ function Navbar(){
                 <Link to="/blog" className="nav-item nav-link text-primary h5 mx-1 my-auto">
                  Blog
                     </Link>
-                    <a href="/" className="nav-item nav-link text-primary h5 mx-1 my-auto">
-                   Work
-                    </a>
+                    <Link to="/testimonial" className="nav-item nav-link text-primary h5 mx-1 my-auto">
+                   Testimonial
+                    </Link>
                     
                     </div>
         </div>

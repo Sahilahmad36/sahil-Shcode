@@ -70,7 +70,7 @@ import {Link} from "react-router-dom";
         <span className="text-info" style={{fontSize:"40px"}}>Projects</span>
        </h1>
        <div className="lead">I build the projects, Just like this..</div>
-       <div className="row my-5 pt-3">
+       <div className="row my-5 pt-4">
         <div className="col-12 col-md-4 my-2 text-justify text-center">
            
             <div className="card shadow">
@@ -80,11 +80,11 @@ import {Link} from "react-router-dom";
             
               <div className="card-body">
               <a href="https://github.com/Sahilahmad36/Snapshot/">
-           <h4 className="card-title text-primary btn btn-outline-secondary mx-3">Source-code</h4>  
+           <h4 className="card-title text-primary btn btn-outline-secondary mx-1">Source-code</h4>  
            </a>
 
            <a href="https://sahilahmad36.github.io/Snapshot/">
-           <h4 className="card-title text-primary btn btn-outline-secondary mx-3">Deploy-link</h4>  
+           <h4 className="card-title text-primary btn btn-outline-secondary mx-2">Deploy-link</h4>  
            </a>
 
            <p className="text-success text-center" >This is my first project</p>              
@@ -101,11 +101,11 @@ import {Link} from "react-router-dom";
               
               <div className="card-body">
                 <a href="https://github.com/Sahilahmad36/Social_mediaapp">
-           <h4 className="card-title text-primary btn btn-outline-secondary mx-3">Source-code</h4> 
+           <h4 className="card-title text-primary btn btn-outline-secondary mx-1">Source-code</h4> 
            </a> 
 
            <a href="https://fascinating-marigold-184d74.netlify.app/">
-           <h4 className="card-title text-primary btn btn-outline-secondary mx-3">Deploy-link</h4> 
+           <h4 className="card-title text-primary btn btn-outline-secondary mx-2">Deploy-link</h4> 
            </a> 
 
            <p className="text-success text-center">This is my second project</p>
@@ -123,11 +123,11 @@ import {Link} from "react-router-dom";
               
               <div className="card-body">
                 <a href="https://github.com/Sahilahmad36/Task-Management">
-           <h4 className="card-title text-primary btn btn-outline-secondary mx-3">Source-code</h4> 
+           <h4 className="card-title text-primary btn btn-outline-secondary mx-1">Source-code</h4> 
            </a> 
 
            <a href="https://sahilahmad36.github.io/Task-Management/">
-           <h4 className="card-title text-primary btn btn-outline-secondary mx-3">Deploy-link</h4> 
+           <h4 className="card-title text-primary btn btn-outline-secondary mx-2">Deploy-link</h4> 
            </a> 
 
            <p className="text-success text-center">This is my third project</p>   

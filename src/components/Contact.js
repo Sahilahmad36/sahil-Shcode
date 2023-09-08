@@ -112,8 +112,8 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_ibdwzh9",
-        "template_a18hq3z",
+        "service_o8zzdo8",
+        "template_f0d2dpr",
         form.current,
         "PYA_yS4jPAOATo99l"
       )
@@ -144,13 +144,13 @@ const Contact = () => {
        <div className="form-group">
         
         <label htmlFor="name">Name*</label>
-        <input type="text" name="user_name" className="form-control" 
+        <input type="text" name="to_name" className="form-control" 
      
         />
        </div>
        <div className="form-group">
        <label htmlFor="email">Email*</label>
-       <input type="email" name="user_email" className="form-control" 
+       <input type="email" name="email" className="form-control" 
    
        />
        </div>

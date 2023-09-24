@@ -2,7 +2,7 @@
 
 .about {
     padding: 5rem 1rem 1rem 1rem;
-    background: #000000;
+    background: transparent;
    
 }
 .row {
@@ -142,7 +142,7 @@
     right: 0;
     font-size: 14px;
     font-weight: 400;
-    color: #18dcff;
+    color: #058298;
 }
 
 
@@ -154,6 +154,7 @@
 .exp-column span{
     font-weight: 700;
     color: #18dcff;
+    font-size: 18px;
 
 }
 .exp-column p{

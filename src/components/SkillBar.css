@@ -1,10 +1,10 @@
 .container1{
     width: 100vh;
     height: auto;
-    padding: 1rem;
+    padding: 2rem;
     border-radius: 15px;
     flex-direction: column;
-    background: rgb(29, 29, 29);
+    background: transparent;
     justify-content: center;
     margin:auto;
     display: flex;

@@ -1,6 +1,6 @@
 .home{
  
-  height: 90vh;
+  height: 98vh;
   display: flex;
   width: 100%;
   background-image: url('../asset/josh.jpg');
@@ -26,7 +26,7 @@
 .title{
  animation-name: moveRight;
  animation-duration: 0.7s;
- font-size: 7rem;
+ font-size: 6rem;
  position: relative;
  display: flex;
  margin: auto;
@@ -39,7 +39,7 @@
 .titleTwo{
   animation-name: moveLeft;
   animation-duration: 1s;
-  font-size: 5rem;
+  font-size: 4rem;
   position: relative;
   display: flex;
   margin: auto;

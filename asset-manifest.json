@@ -1,22 +1,31 @@
 {
   "files": {
-    "main.css": "/sahil-Shcode/static/css/main.0e8c385f.css",
-    "main.js": "/sahil-Shcode/static/js/main.29516414.js",
+    "main.css": "/sahil-Shcode/static/css/main.f4ce068e.css",
+    "main.js": "/sahil-Shcode/static/js/main.efbb1a6e.js",
     "static/js/787.26fdae00.chunk.js": "/sahil-Shcode/static/js/787.26fdae00.chunk.js",
     "static/media/fotopoul.jpg": "/sahil-Shcode/static/media/fotopoul.a1cf45330e8ab54e6d56.jpg",
     "static/media/Website-3.jpg": "/sahil-Shcode/static/media/Website-3.0b07181e41c3564da90a.jpg",
     "static/media/Portfolio-2.jpg": "/sahil-Shcode/static/media/Portfolio-2.1be8807cead8cb00b580.jpg",
     "static/media/josh.jpg": "/sahil-Shcode/static/media/josh.923b3b75dca10fea2e5e.jpg",
+    "static/media/img9.png": "/sahil-Shcode/static/media/img9.ceec51c93eb7f9c89330.png",
+    "static/media/img1.png": "/sahil-Shcode/static/media/img1.a29150df064e258853db.png",
     "static/media/theme.jpg": "/sahil-Shcode/static/media/theme.746dcb9dd2fa6fa8aafc.jpg",
+    "static/media/img8.png": "/sahil-Shcode/static/media/img8.ada283269a85e4e8257f.png",
+    "static/media/img7.jpg": "/sahil-Shcode/static/media/img7.755f5584366c696a2148.jpg",
+    "static/media/img3.jpg": "/sahil-Shcode/static/media/img3.e03fab1eb4d9f3976605.jpg",
     "static/media/Sahil-1.jpg": "/sahil-Shcode/static/media/Sahil-1.a28b01e6906d8349a0d5.jpg",
+    "static/media/img4.jpg": "/sahil-Shcode/static/media/img4.f426336635e8c793368f.jpg",
     "static/media/Image.jpeg": "/sahil-Shcode/static/media/Image.4371aa341223ba1fb021.jpeg",
+    "static/media/img5.jpg": "/sahil-Shcode/static/media/img5.6a3151f62701c5a450dd.jpg",
+    "static/media/certificate.jpeg": "/sahil-Shcode/static/media/certificate.737bc45315db261a2eb7.jpeg",
+    "static/media/sahil_certificate.jpeg": "/sahil-Shcode/static/media/sahil_certificate.54c4f8b2c055432f3641.jpeg",
     "index.html": "/sahil-Shcode/index.html",
-    "main.0e8c385f.css.map": "/sahil-Shcode/static/css/main.0e8c385f.css.map",
-    "main.29516414.js.map": "/sahil-Shcode/static/js/main.29516414.js.map",
+    "main.f4ce068e.css.map": "/sahil-Shcode/static/css/main.f4ce068e.css.map",
+    "main.efbb1a6e.js.map": "/sahil-Shcode/static/js/main.efbb1a6e.js.map",
     "787.26fdae00.chunk.js.map": "/sahil-Shcode/static/js/787.26fdae00.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e8c385f.css",
-    "static/js/main.29516414.js"
+    "static/css/main.f4ce068e.css",
+    "static/js/main.efbb1a6e.js"
   ]
 }

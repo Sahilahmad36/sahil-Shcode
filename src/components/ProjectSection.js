@@ -1,7 +1,6 @@
 // import React from "react";
 // import ProjectCard from "./ProjectCard";
 
-
 //  function ProjectSection(){
 //     const projects =[
 //         {
@@ -9,7 +8,7 @@
 //             title: "Project 1",
 //             imageUrl:"https://cdn.pixabay.com/photo/2015/01/08/18/24/programming-593312_960_720.jpg",
 //             excerpt: "This is my first project." ,
-           
+
 //         },
 //         {
 //             id: 2,
@@ -18,7 +17,7 @@
 //             excerpt: "This is my second project." ,
 //         },
 //         {
-//         id: 3,    
+//         id: 3,
 //         title: "Project 3",
 //         imageUrl:"https://images.pexels.com/photos/4709289/pexels-photo-4709289.jpeg?auto=compress&cs=tinysrgb&w=600.jpg",
 //         excerpt: "This is my third project." ,
@@ -30,21 +29,20 @@
 //         <span className="text-info" style={{fontSize:"40px"}}>Projects</span>
 //        </h1>
 //        <div className="lead">I build the products, Just like this..</div>
-//        <div className="row my-5 pt-3"> 
+//        <div className="row my-5 pt-3">
 //       {
 //      projects.map((project)=>
 //      (
 //      <div key={project.id} className="col-12 col-md-4 my-2">
 //      <ProjectCard project={project}
-     
+
 //      />
 //      </div>
 //      )
-     
+
 //      )
 //       }
-       
-        
+
 //         </div>
 //         <div className="my-5">
 //             <a href="/" className="text-dark text-right">
@@ -52,7 +50,7 @@
 //          <i className="fas fa-arrow-right"></i></h5>
 //          </a>
 //         </div>
-        
+
 //         </div>
 //     );
 //  }
@@ -61,93 +59,97 @@ import React from "react";
 import Website from "../asset/Website-3.jpg";
 import Portfolio from "../asset/Portfolio-2.jpg";
 import fotopoul from "../asset/fotopoul.jpg";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
- function ProjectSection(){
-    return(
-        <div className="container text-center my-3">
-       <h1 className="font-weight-light">
-        <span className="text-info" style={{fontSize:"40px"}}>Projects</span>
-       </h1>
-       <div className="lead">I build the projects, Just like this..</div>
-       <div className="row my-5 pt-4">
+function ProjectSection() {
+  return (
+    <div className="container text-center my-3">
+      <h1 className="font-weight-light">
+        <span className="text-info" style={{ fontSize: "40px" }}>
+          Projects
+        </span>
+      </h1>
+      <div className="lead">I build the projects, Just like this..</div>
+      <div className="row my-5 pt-4">
         <div className="col-12 col-md-4 my-2 text-justify text-center">
-           
-            <div className="card shadow">
-                <img className="card-img-top" src={Website}
-                alt="Website-3"
-                />
-            
-              <div className="card-body">
-              <a href="https://github.com/Sahilahmad36/Snapshot/">
-           <h4 className="card-title text-primary btn btn-outline-secondary mx-1">Source-code</h4>  
-           </a>
+          <div className="card shadow">
+            <img className="card-img-top" src={Website} alt="Website-3" />
 
-           <a href="https://sahilahmad36.github.io/Snapshot/">
-           <h4 className="card-title text-primary btn btn-outline-secondary mx-2">Deploy-link</h4>  
-           </a>
+            <div className="card-body">
+              <a href="https://github.com/Sahilahmad36/E-comm_app">
+                <h4 className="card-title text-primary btn btn-outline-secondary mx-1">
+                  Source-code
+                </h4>
+              </a>
 
-           <p className="text-success text-center" >This is my first project</p>              
-            </div>
-            </div>
-        </div>
-        <div className="col-12 col-md-4 my-2 text-justify text-center">
-           
-            <div className="card shadow">
-                <img className="card-img-top" 
-                src={Portfolio}
-                alt="Portfolio-2"
-                />
-              
-              <div className="card-body">
-                <a href="https://github.com/Sahilahmad36/Social_mediaapp">
-           <h4 className="card-title text-primary btn btn-outline-secondary mx-1">Source-code</h4> 
-           </a> 
+              <a href="https://frolicking-rolypoly-baa0cf.netlify.app">
+                <h4 className="card-title text-primary btn btn-outline-secondary mx-2">
+                  Deploy-link
+                </h4>
+              </a>
 
-           <a href="https://fascinating-marigold-184d74.netlify.app/">
-           <h4 className="card-title text-primary btn btn-outline-secondary mx-2">Deploy-link</h4> 
-           </a> 
-
-           <p className="text-success text-center">This is my second project</p>
-                       
+              <p className="text-success text-center">
+                This is my first project
+              </p>
             </div>
-            </div>
+          </div>
         </div>
         <div className="col-12 col-md-4 my-2 text-justify text-center">
-        
-            <div className="card shadow">
-                <img className="card-img-top" 
-                src={fotopoul}
-                alt="fotopoul"
-                />
-              
-              <div className="card-body">
-                <a href="https://github.com/Sahilahmad36/Task-Management">
-           <h4 className="card-title text-primary btn btn-outline-secondary mx-1">Source-code</h4> 
-           </a> 
+          <div className="card shadow">
+            <img className="card-img-top" src={Portfolio} alt="Portfolio-2" />
 
-           <a href="https://sahilahmad36.github.io/Task-Management/">
-           <h4 className="card-title text-primary btn btn-outline-secondary mx-2">Deploy-link</h4> 
-           </a> 
+            <div className="card-body">
+              <a href="https://github.com/Sahilahmad36/Social_mediaapp">
+                <h4 className="card-title text-primary btn btn-outline-secondary mx-1">
+                  Source-code
+                </h4>
+              </a>
 
-           <p className="text-success text-center">This is my third project</p>   
-                      
+              <a href="https://fascinating-marigold-184d74.netlify.app/">
+                <h4 className="card-title text-primary btn btn-outline-secondary mx-2">
+                  Deploy-link
+                </h4>
+              </a>
+
+              <p className="text-success text-center">
+                This is my second project
+              </p>
             </div>
+          </div>
+        </div>
+        <div className="col-12 col-md-4 my-2 text-justify text-center">
+          <div className="card shadow">
+            <img className="card-img-top" src={fotopoul} alt="fotopoul" />
+
+            <div className="card-body">
+              <a href="https://github.com/Sahilahmad36/Task-Management">
+                <h4 className="card-title text-primary btn btn-outline-secondary mx-1">
+                  Source-code
+                </h4>
+              </a>
+
+              <a href="https://sahilahmad36.github.io/Task-Management/">
+                <h4 className="card-title text-primary btn btn-outline-secondary mx-2">
+                  Deploy-link
+                </h4>
+              </a>
+
+              <p className="text-success text-center">
+                This is my third project
+              </p>
             </div>
+          </div>
         </div>
-        
-       
-        
-        </div>
-        <div className="text-center">
-            <Link to="/picture">
-                <h5 className="text-danger" style={{textAlign:"right"}}>CodePic's
-         <i className="fas fa-arrow-right"></i></h5>
-         </Link>
-        </div>
-       
-        
-        </div>
-    );
- }
- export default ProjectSection;
+      </div>
+      <div className="text-center">
+        <Link to="/picture">
+          <h5 className="text-danger" style={{ textAlign: "right" }}>
+            CodePic's
+            <i className="fas fa-arrow-right"></i>
+          </h5>
+        </Link>
+      </div>
+    </div>
+  );
+}
+export default ProjectSection;

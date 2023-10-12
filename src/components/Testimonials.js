@@ -85,7 +85,7 @@ const data = [
     title: "E-commerce website",
     desc: "This is the E-commerce website..In this website how to add product, delete product, update product etc...",
     github: "https://github.com/Sahilahmad36/E-comm_app",
-    demo: "https://frolicking-rolypoly-baa0cf.netlify.app/signup",
+    demo: "https://frolicking-rolypoly-baa0cf.netlify.app/",
   },
   {
     id: 3,

@@ -1,31 +1,35 @@
 {
   "files": {
-    "main.css": "/sahil-Shcode/static/css/main.4b7c258a.css",
-    "main.js": "/sahil-Shcode/static/js/main.4bbd2915.js",
+    "main.css": "/sahil-Shcode/static/css/main.0685139c.css",
+    "main.js": "/sahil-Shcode/static/js/main.c2c0039c.js",
     "static/js/787.26fdae00.chunk.js": "/sahil-Shcode/static/js/787.26fdae00.chunk.js",
     "static/media/fotopoul.jpg": "/sahil-Shcode/static/media/fotopoul.a1cf45330e8ab54e6d56.jpg",
     "static/media/Website-3.jpg": "/sahil-Shcode/static/media/Website-3.0b07181e41c3564da90a.jpg",
     "static/media/Portfolio-2.jpg": "/sahil-Shcode/static/media/Portfolio-2.1be8807cead8cb00b580.jpg",
+    "static/media/Screenshot4.png": "/sahil-Shcode/static/media/Screenshot4.8bc119776ff243ada932.png",
+    "static/media/Screenshot6.png": "/sahil-Shcode/static/media/Screenshot6.ff7a374e16d08925a170.png",
     "static/media/josh.jpg": "/sahil-Shcode/static/media/josh.923b3b75dca10fea2e5e.jpg",
+    "static/media/Screenshot2.png": "/sahil-Shcode/static/media/Screenshot2.9a239a21dac19f74206a.png",
     "static/media/img9.png": "/sahil-Shcode/static/media/img9.ceec51c93eb7f9c89330.png",
     "static/media/img1.png": "/sahil-Shcode/static/media/img1.a29150df064e258853db.png",
-    "static/media/theme.jpg": "/sahil-Shcode/static/media/theme.746dcb9dd2fa6fa8aafc.jpg",
+    "static/media/Screenshot3.png": "/sahil-Shcode/static/media/Screenshot3.c4a5d109e7075a95472a.png",
+    "static/media/Screenshot8.png": "/sahil-Shcode/static/media/Screenshot8.011b05220a474c167b62.png",
+    "static/media/Screenshot1.png": "/sahil-Shcode/static/media/Screenshot1.412964c3f066242dc72b.png",
     "static/media/img8.png": "/sahil-Shcode/static/media/img8.ada283269a85e4e8257f.png",
     "static/media/img7.jpg": "/sahil-Shcode/static/media/img7.755f5584366c696a2148.jpg",
     "static/media/img3.jpg": "/sahil-Shcode/static/media/img3.e03fab1eb4d9f3976605.jpg",
-    "static/media/Sahil-1.jpg": "/sahil-Shcode/static/media/Sahil-1.a28b01e6906d8349a0d5.jpg",
+    "static/media/Screenshot5.png": "/sahil-Shcode/static/media/Screenshot5.6be2e41bb4c0d4e43c0a.png",
     "static/media/img4.jpg": "/sahil-Shcode/static/media/img4.fe4880be1bb5021ff0e5.jpg",
-    "static/media/Image.jpeg": "/sahil-Shcode/static/media/Image.4371aa341223ba1fb021.jpeg",
     "static/media/img5.jpg": "/sahil-Shcode/static/media/img5.6a3151f62701c5a450dd.jpg",
     "static/media/certificate.jpeg": "/sahil-Shcode/static/media/certificate.737bc45315db261a2eb7.jpeg",
     "static/media/sahil_certificate.jpeg": "/sahil-Shcode/static/media/sahil_certificate.54c4f8b2c055432f3641.jpeg",
     "index.html": "/sahil-Shcode/index.html",
-    "main.4b7c258a.css.map": "/sahil-Shcode/static/css/main.4b7c258a.css.map",
-    "main.4bbd2915.js.map": "/sahil-Shcode/static/js/main.4bbd2915.js.map",
+    "main.0685139c.css.map": "/sahil-Shcode/static/css/main.0685139c.css.map",
+    "main.c2c0039c.js.map": "/sahil-Shcode/static/js/main.c2c0039c.js.map",
     "787.26fdae00.chunk.js.map": "/sahil-Shcode/static/js/787.26fdae00.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b7c258a.css",
-    "static/js/main.4bbd2915.js"
+    "static/css/main.0685139c.css",
+    "static/js/main.c2c0039c.js"
   ]
 }

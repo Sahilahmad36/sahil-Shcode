@@ -38,7 +38,7 @@ function Navbar() {
             to="/testimonial"
             className="nav-item nav-link text-primary h5 mx-1 my-auto"
           >
-            Testimonial
+            Works
           </Link>
           <Link
             to="/certificate"
